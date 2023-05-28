@@ -82,11 +82,11 @@ Utilizing the ```__declspec(naked)``` is generally not recommended as it require
 
 #### /* This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044) */
 
-![241519156-1d0e5db7-ac49-4aa8-a276-45a0f136d5a7](https://github.com/hasbiyama/HekatesCall/assets/64126239/936b329d-ef56-48fb-9fcd-bdfdac364f43)
+![241519156-1d0e5db7-ac49-4aa8-a276-45a0f136d5a7](https://github.com/hasbiyama/HekatesCall/assets/64126239/7ae2320b-c709-40f1-94ed-b6315e01ade1)
 
-![241519207-0e78c466-3cf3-479e-8b5d-dbccb42211bd](https://github.com/hasbiyama/HekatesCall/assets/64126239/f9bc171e-6b1a-4ebf-8d37-fc68f0241739)
+![241519207-0e78c466-3cf3-479e-8b5d-dbccb42211bd](https://github.com/hasbiyama/HekatesCall/assets/64126239/77a4d634-5a86-475d-80f5-488249e95229)
 
-![241493526-384532b6-357a-4cf4-860c-af205e860b2b](https://github.com/hasbiyama/HekatesCall/assets/64126239/8e6c01fb-2270-4be9-8b40-1f8956173986)
+![241493526-384532b6-357a-4cf4-860c-af205e860b2b](https://github.com/hasbiyama/HekatesCall/assets/64126239/c85bfe50-37ec-4ae4-8677-3971a70bc299)
 
 As illustrated above, when the breakpoint at ```SysNtProtectVirtualMemory``` is hit, the **RDI** value is __0x0000029c47000000__ (the address for the allocated shellcode). However, after clicking _Run_ and reaching the breakpoint at ```SysNtCreateThreadEx```, the **RDI** value changes to __0x00007ff8df82e892__ (the address space of the ```.text``` section of ```ntdll.dll```), indicating that there is a function (or several functions) responsible for altering the **RDI** value between ```SysNtProtectVirtualMemory``` and ```SysNtCreateThreadEx```.
 
