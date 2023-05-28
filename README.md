@@ -176,7 +176,7 @@ Microsoft Windows 11 Pro N (10.0.22621 N/A Build 22621)
 ## Further Reading
 
 ```
-1) https://github.com/am0nsec/HellsGate (@am0nsec & vx_underground aka)
+1) https://github.com/am0nsec/HellsGate (@am0nsec & @vxunderground)
 2) https://github.com/crummie5/FreshyCalls (@crummie5)
 3) https://github.com/jthuraisamy/SysWhispers2 (@jthuraisamy)
 4) https://blog.sektor7.net/#!res/2021/halosgate.md (@SEKTOR7net)
