@@ -80,7 +80,7 @@ If we are unable to locate any ```syscall``` instruction, it means that all the 
 
 Utilizing the ```__declspec(naked)``` is generally not recommended as it requires manual management of the stack, which makes it more susceptible to errors. Additionally, functions that lack generated _prologue_ and _epilogue_ may not preserve the value of the **RDI** register in different versions or builds of Windows.
 
-#### /* This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044) */
+* This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044)
 
 ![241519156-1d0e5db7-ac49-4aa8-a276-45a0f136d5a7](https://github.com/hasbiyama/HekatesCall/assets/64126239/7ae2320b-c709-40f1-94ed-b6315e01ade1)
 
@@ -118,7 +118,7 @@ Once ```SysNtCreateThreadEx``` is executed, it will verify whether the **EAX** r
     __asm__ volatile ("mov %%rdi, %0;" : : "r" (rdi_value_2));    
 ...
 ```
-#### /* This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044) */
+* This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044)
 
 [![solVid](https://i.ibb.co/7yT2frZ/Snapshot.png)](https://www.youtube.com/watch?v=ZEitZXJ6O6Y)
 
