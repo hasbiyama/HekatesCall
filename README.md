@@ -96,7 +96,7 @@ Upon conducting a comprehensive debugging session, we unearthed that the ```getS
 
 ### [+] Solution
 
-As we have identified that before the execution of ```getSyscallInfo```  has been causing disruptions, we will implement a solution by saving the value of **RDI** ```(rdi_value)``` prior to its first execution.
+Having determined that the invocation of ```getSyscallInfo``` leads to a modification of the **RDI** value, we shall implement a solution by safeguarding the original value of **RDI** ```(rdi_value)``` prior to its initial execution.
 
 ```
 ...
