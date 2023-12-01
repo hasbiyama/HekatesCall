@@ -120,9 +120,7 @@ Once ```SysNtCreateThreadEx``` is executed, it will verify whether the **EAX** r
 ```
 * This has been tested on Microsoft Windows 10 Pro (10.0.19044 N/A Build 19044)
 
-[![solVid](https://i.ibb.co/7yT2frZ/Snapshot.png)](https://www.youtube.com/watch?v=ZEitZXJ6O6Y)
-
-#### [=] Please click the image or the link to start the video (Youtube) - https://youtu.be/ZEitZXJ6O6Y
+#### [=] Please click the link to start the video (Youtube) - https://youtu.be/ZEitZXJ6O6Y
 
 ## POC (Proof of Concept)
 
