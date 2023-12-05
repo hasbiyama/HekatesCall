@@ -1,5 +1,5 @@
 # Hekate's Call
-### Dynamic (Indirect-Direct) Syscalls Invocation via Function Pointers
+### Dynamic (Indirect-Direct) Syscalls Invocation
 #### Author: Hasbi A. (@3xploitZero)
 
 The research and development of this technique draws heavily on concepts that have already been successfully implemented by other security researchers, such as **FreshyCalls** (@crummie5), **SysWhispers2** (Jackson T. aka @jthuraisamy), **Hell's Gate** (Paul L. aka @am0nsec & vx_underground aka @RtlMateusz), and **Halo's Gate** (Sektor7). Therefore, it represents a novel approach rather than a ground-breaking concept.
